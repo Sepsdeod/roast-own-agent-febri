@@ -18,6 +18,6 @@ PHASE 1 COMPLETE — ready for coordinator phase 2 (bundle/check/submit). Do NOT
 - Local test: `python3 main.py` → /output/entry.txt, 134 chars, deterministic byte-identical re-run (see INTERIM-REPORT.md).
 
 ## Worker session (for coordinator phase 2 bundling)
-- agent_id: (see INTERIM-REPORT.md)
-- session file: ~/agents/<agent>/sessions/<id>.jsonl (see INTERIM-REPORT.md; created after competition open 2026-11-24T15:34:28Z)
+- agent_id: 1e9ccb35-6db1-44cf-bc31-f4055702c11b
+- session file: ~/agents/agent-1e9ccb35-6db1-44cf-bc31-f4055702c11b/sessions/1e9ccb35-6db1-44cf-bc31-f4055702c11b.jsonl (created after competition open 2026-11-24T15:34:28Z)
 - Harness: muse-app 1.3, provider meta, model muse-spark-1.3, effort default, --mcp none (per playbook; coordinator to bundle with --session + --no-discover --no-family and muse.db usage rows).
